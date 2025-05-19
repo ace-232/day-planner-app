@@ -1,0 +1,39 @@
+/* Base Styles */
+.auth-container, .dashboard {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.notification {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.task-item {
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.pill {
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.pill.email { background: #e3f2fd; }
+.pill.sms { background: #f0f4c3; }
+.pill.in-app { background: #ffcdd2; }
